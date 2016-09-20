@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件批量上传</title>
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1 align="center">文件批量上传系统</h1>
+    <div class="form-group">
+        <form action="upload_02.php" method="post" enctype="multipart/form-data">
+            <input type="file" name="myfile[]" class="form-control"><br>
+            <hr>
+            <hr>
+            <input type="file" name="myfile[]" class="form-control"><br>
+            <hr>
+            <hr>
+            <input type="file" name="myfile[]" class="form-control"><br>
+            <hr>
+            <hr>
+            <input type="file" name="myfile[]" class="form-control"><br>
+            <hr>
+            <hr>
+            <input type="submit" value="上传" class="btn btn-primary">
+            <input type="reset" value="重新设置" class="btn btn-danger">
+        </form>
+    </div>
+</div>
+</body>
+</html>
